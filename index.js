@@ -1,5 +1,5 @@
 const inquirer = require('inquirer')
-// const fs = require('fs');
+const fs = require('fs');
 // const util = require('util');
 
 console.log('readme gen running')
@@ -11,10 +11,9 @@ inquirer
             message: 'Give your README a title',
             name: 'title',
         },
-
         {
             type: 'input',
-            message: 'Describe your project',
+            message: 'Project description',
             name: 'description',
         },
         {
@@ -39,8 +38,8 @@ inquirer
             choices: ['MIT', 'GPLv2', 'Apache', 'GPLv3', 'BSD 3-clause']
         },
         {
-            type: 'confirm',
-            message: 'Contributing',
+            type: 'input',
+            message: 'Contribute',
             name: 'contribute',
         },
         {
@@ -55,10 +54,10 @@ inquirer
         },
 
     ])
-    // .then((response) => 
+    .then((response) => {
+        console.log(response);
+        fs.writeFile(`test.md`, `Hello there!`, (error) => 
+        error ? console.error(error) : console.log(`Success`)
+        );
+    })
 
-    
-    
-    
-    
-    // )
