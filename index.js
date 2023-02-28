@@ -1,28 +1,26 @@
 const inquirer = require('inquirer')
 const fs = require('fs');
 
-const generateMarkdown = (response) => {
-    return `# ${response.title}`
+const generateMarkdown = (answers) =>
+    `# ${response.title}`
 
-        // `## Project description`,
-        // `${response.description}`
+        `## Project description`
+        `${response.description}`
 
-        // `## Table of contents`,
-        // `${response.contents}`,
+        `## Table of contents`
+        `${response.contents}`
 
-        // `## Installation instructions`,
-        // `${response.instructions}`,
+        `## Installation instructions`
+        `${response.instructions}`
 
-        // `## Usage`,
-        // `${response.usage}`,
+        `## Usage`
+        `${response.usage}`
 
-        // `## Lisence`,
-        // `${response.lisence}`,
+        `## Lisence`
+        `${response.lisence} [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
 
-        // `## Contribute`,
-        // `${response.contribute}`
-
-}
+        `## Contribute`
+        `${response.contribute}`;
 
 console.log('readme gen running')
 
@@ -83,7 +81,7 @@ inquirer
     ])
     .then((response) => {
         const MDgeneration = generateMarkdown(response);
-
+        console.log(response)
         fs.writeFile(`${response.filename}.md`, MDgeneration, (error) =>
             error ? console.error(error) : console.log(`Success`)
         );
