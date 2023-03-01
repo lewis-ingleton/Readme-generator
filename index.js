@@ -1,26 +1,31 @@
 const inquirer = require('inquirer')
 const fs = require('fs');
 
-const generateMarkdown = (answers) =>
-    `# ${response.title}`
+const generateMarkdown = (response) => {
+    return `# ${response.title}`
 
-        `## Project description`
-        `${response.description}`
+        // `## Project description`
+        // `${response.description}`,
 
-        `## Table of contents`
-        `${response.contents}`
+        // `## Table of contents`,
+        // `${response.contents}`,
 
-        `## Installation instructions`
-        `${response.instructions}`
+        // `## Installation instructions`,
+        // `${response.instructions}`,
 
-        `## Usage`
-        `${response.usage}`
+        // `## Usage`,
+        // `${response.usage}`,
 
-        `## Lisence`
-        `${response.lisence} [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+        // `## Lisence`,
+        // `${response.lisence}`,
 
-        `## Contribute`
-        `${response.contribute}`;
+        // `## Contribute`,
+        // `${response.contribute}`
+
+}
+
+// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+
 
 console.log('readme gen running')
 
