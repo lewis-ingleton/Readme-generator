@@ -27,3 +27,5 @@ https://www.npmjs.com/package/inquirer
 ## Example
 There is an example of a README file that I generated named 'lewis-test.md' in this repository.
 
+There is a corresponding video of me generating this README. 
+
