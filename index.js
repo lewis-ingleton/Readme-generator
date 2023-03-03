@@ -30,7 +30,7 @@ ${response.description}
 - [Email](#email)
 
 
-## Installation instructions
+## Installation
 ${response.installation}
 
 ## Usage
@@ -39,10 +39,8 @@ ${response.usage}
 ## Contribute
 ${response.contribute}
 
-## Find me on GitHub 
+## Contact me if you have any questions
 https://github.com/${response.githubQs}
-
-## My email
 ${response.emailQs}
 `
 }
