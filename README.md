@@ -24,9 +24,9 @@ For this project I used the npm inquirer package, a collection of common interac
 
 https://www.npmjs.com/package/inquirer 
 
-## Example 
+## Example with video
 
 There is an example of a README file that I generated named 'lewis-test.md' in this repository.
 
-There is a corresponding video of me generating this README. 
+I have added a video of me generating this README file, which you can find in the 'assets' folder. You will need to download it to watch.
 
