@@ -26,9 +26,7 @@ ${response.description}
 - [Installation](#installation-instructions)
 - [Usage](#usage)
 - [Contribute](#contribute)
-- [GitHub username](#github-username)
-- [Email](#email)
-
+- [Contact me](#contact-me)
 
 ## Installation
 ${response.installation}
@@ -39,7 +37,7 @@ ${response.usage}
 ## Contribute
 ${response.contribute}
 
-## Contact me if you have any questions
+## Contact me
 https://github.com/${response.githubQs}
 
 ${response.emailQs}
