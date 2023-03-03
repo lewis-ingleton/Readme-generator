@@ -23,7 +23,7 @@ ${lisenceBadge(response.lisence)}
 ${response.description}
 
 ## Table of contents
-- [Installation](#installation-instructions)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contribute](#contribute)
 - [Contact me](#contact-me)
