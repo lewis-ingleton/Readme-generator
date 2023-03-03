@@ -22,9 +22,10 @@ Once a user has filled out these prompts, a README file is generated.
 ## Packages 
 For this project I used the npm inquirer package, a collection of common interactive command line user interfaces.
 
-https://www.npmjs.com/package/inquirer
+https://www.npmjs.com/package/inquirer 
 
-## Example
+## Example 
+
 There is an example of a README file that I generated named 'lewis-test.md' in this repository.
 
 There is a corresponding video of me generating this README. 
