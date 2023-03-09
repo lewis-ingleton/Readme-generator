@@ -1,5 +1,5 @@
 # Readme-generator
-This README generator uses node.js so that a user can answer questions to generate a README.md file. 
+This README generator uses node.js so that a user can answer questions to generate a README.md file. Example video in the assets folder.
 
 ## User story
 As a user, I want a quick and efficient way to create a README file for any projects that I am working on. 
