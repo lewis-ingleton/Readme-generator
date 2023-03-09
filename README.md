@@ -7,7 +7,7 @@ As a user, I want a quick and efficient way to create a README file for any proj
 ## Usage
 To run this application, type 'node <index.js>' <or the corresponding file name> which will run a number of prompts based on what I want to appear on the README file that will be generated. The prompts consist of: 
 - Give your README a file name 
-- Project file 
+- Project title 
 - Project description
 - Installation instructions
 - Usage
