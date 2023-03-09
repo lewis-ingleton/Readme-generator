@@ -34,6 +34,9 @@ ${response.installation}
 ## Usage
 ${response.usage}
 
+## Tests
+${response.tests}
+
 ## Contribute
 ${response.contribute}
 
@@ -105,6 +108,7 @@ inquirer
         fs.writeFile(`${response.filename}.md`, MDgeneration, (error) =>
             error ? console.error(error) : console.log(`Success`)
         );
+
     })
 
 
