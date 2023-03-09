@@ -1,25 +1,29 @@
-# README generator test
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+# Lewis test README generator
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) 
     
 ## Project description
-This description is for the purposes of a test.
+this description is for the purposes of a test
 
 ## Table of contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Tests](#tests)
 - [Contribute](#contribute)
 - [Contact me](#contact-me)
 
 ## Installation
-Install inquirer
+install inquirer package
 
 ## Usage
-run node index.js in command line
+free to use
+
+## Tests
+tests done
 
 ## Contribute
-Contributions welcome
+contrubutions welcome
 
 ## Contact me
 https://github.com/lewis-ingleton
 
-lewis.ingleton1@gmail.com
+lewis.ingleton@hotmail.com

@@ -25,6 +25,7 @@ ${response.description}
 ## Table of contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Tests](#tests)
 - [Contribute](#contribute)
 - [Contact me](#contact-me)
 
