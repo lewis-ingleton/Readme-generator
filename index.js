@@ -1,5 +1,6 @@
 const inquirer = require('inquirer')
 const fs = require('fs');
+
 function lisenceBadge(lisence) {
     if (lisence === 'MIT') {
         return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
